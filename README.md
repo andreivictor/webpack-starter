@@ -16,6 +16,10 @@ A starter frontend boilerplate using Webpack 5, SASS, PostCSS, Babel, ESLint, St
 - Load environment variables from a `.env` file with [dotenv-webpack](https://github.com/mrsteele/dotenv-webpack).
 - Analyze output files with an interactive zoomable treemap with [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer).
 
+### EJS
+
+- Templating engine with [EJS](https://ejs.co/)
+
 ### Babel
 
 - [Babel 7](https://babeljs.io/) - JavaScript compiler with [`babel-preset-env`](https://babeljs.io/docs/babel-preset-env).

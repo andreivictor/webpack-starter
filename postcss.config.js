@@ -12,7 +12,7 @@ module.exports = {
     postcssPresetEnv(),
     process.env.NODE_ENV === 'production'
       ? purgecss({
-          content: ['./src/**/*.{html,js}'],
+          content: ['./src/**/*.{ejs,js}'],
         })
       : false,
   ].filter(Boolean),

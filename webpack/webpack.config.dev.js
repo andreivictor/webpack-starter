@@ -8,7 +8,7 @@ module.exports = merge(webpackCommonConfig, {
   devServer: {
     open: true,
     hot: true,
-    watchFiles: [`${paths.src}/*.html`, `${paths.src}/images/**.*`],
+    watchFiles: [`${paths.src}/**/*.ejs`, `${paths.src}/images/**.*`],
     port: process.env.PORT || 8080,
   },
   module: {
