@@ -9,7 +9,6 @@ module.exports = merge(webpackCommonConfig, {
   devtool: false,
   output: {
     filename: 'js/[name].[contenthash].js',
-    clean: true,
   },
   module: {
     rules: [

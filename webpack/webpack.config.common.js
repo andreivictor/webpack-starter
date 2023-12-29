@@ -24,6 +24,7 @@ module.exports = {
   output: {
     path: paths.dist,
     filename: 'js/[name].js',
+    clean: true,
   },
   module: {
     rules: [
